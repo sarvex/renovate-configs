@@ -1,12 +1,12 @@
 {
   "extends": [
     "config:js-app",
-    "github>browniebroke/renovate-configs:automerge",
-    "github>browniebroke/renovate-configs:eslint-prettier",
-    "github>browniebroke/renovate-configs:group-patch",
-    "github>browniebroke/renovate-configs:size-limit",
-    "github>browniebroke/renovate-configs:react",
-    "github>browniebroke/renovate-configs:styled-components"
+    "github>sarvex/renovate-configs:automerge",
+    "github>sarvex/renovate-configs:eslint-prettier",
+    "github>sarvex/renovate-configs:group-patch",
+    "github>sarvex/renovate-configs:size-limit",
+    "github>sarvex/renovate-configs:react",
+    "github>sarvex/renovate-configs:styled-components"
   ],
   "supportPolicy": ["current"]
 }

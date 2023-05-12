@@ -2,7 +2,7 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "@browniebroke/react-ui-components",
+        "@sarvex/react-ui-components",
         "@types/styled-components",
         "babel-plugin-styled-components",
         "gatsby-plugin-styled-components",

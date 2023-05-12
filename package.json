@@ -1,8 +1,8 @@
 {
-  "name": "browniebroke-renovate-configs",
+  "name": "sarvex-renovate-configs",
   "version": "1.0.0",
   "description": "Shareable Renovate configs to use in most of my projects.",
-  "author": "browniebroke",
+  "author": "sarvex",
   "license": "MIT",
-  "repository": "browniebroke/renovate-configs"
+  "repository": "sarvex/renovate-configs"
 }

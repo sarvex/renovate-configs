@@ -1,8 +1,8 @@
 {
   "extends": [
-    "github>browniebroke/renovate-configs",
-    "github>browniebroke/renovate-configs:boto3",
-    "github>browniebroke/renovate-configs:httpx",
-    "github>browniebroke/renovate-configs:sphinx"
+    "github>sarvex/renovate-configs",
+    "github>sarvex/renovate-configs:boto3",
+    "github>sarvex/renovate-configs:httpx",
+    "github>sarvex/renovate-configs:sphinx"
   ]
 }

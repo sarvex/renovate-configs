@@ -1,7 +1,7 @@
 {
   "extends": [
     "config:base", 
-    "github>browniebroke/renovate-configs:automerge"
+    "github>sarvex/renovate-configs:automerge"
   ],
   "labels": ["dependencies"],
   "pre-commit": {
