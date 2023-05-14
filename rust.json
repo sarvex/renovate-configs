@@ -1,9 +1,3 @@
 {
-  "extends": ["config:base"],
-  "ignorePaths": [],
-  "labels": ["type: chore"],
-  "enabledManagers": ["cargo"],
-  "cargo": {
-    "enabled": true
-  },
+  "extends": ["github>sarvex/renovate-configs:default", "config:rust"],
 }

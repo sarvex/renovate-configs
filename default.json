@@ -1,10 +1,8 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base", 
+    "config:base",
     "github>sarvex/renovate-configs:automerge"
   ],
-  "labels": ["dependencies"],
-  "pre-commit": {
-    "enabled": true
-  }
+  "ignorePaths": []
 }
