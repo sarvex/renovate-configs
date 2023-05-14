@@ -1,0 +1,9 @@
+{
+  "extends": ["config:base"],
+  "ignorePaths": [],
+  "labels": ["type: chore"],
+  "enabledManagers": ["cargo"],
+  "cargo": {
+    "enabled": true
+  },
+}
