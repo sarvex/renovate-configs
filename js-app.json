@@ -7,5 +7,5 @@
     "github>sarvex/renovate-configs:size-limit",
     "github>sarvex/renovate-configs:react",
     "github>sarvex/renovate-configs:styled-components"
-  ],
+  ]
 }
