@@ -1,3 +1,3 @@
 {
-  "extends": ["github>sarvex/renovate-configs:default", "config:default"]
+  "extends": ["github>sarvex/renovate-configs:default"]
 }
