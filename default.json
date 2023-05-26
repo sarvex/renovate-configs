@@ -2,6 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
+    ":automergeAll",
+    ":automergeDigest",
+    ":automergeLinters",
+    ":combinePatchMinorReleases",
+    ":rebaseStalePrs",
+    ":renovatePrefix",
+    ":semanticPrefixFixDepsChoreOthers",
     "github>sarvex/renovate-configs:automerge"
   ],
   "ignorePaths": []
