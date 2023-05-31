@@ -3,7 +3,7 @@
   "extends": [
     "config:base",
     ":automergeAll",
-    ":automergeBranch"
+    ":automergePr",
     ":combinePatchMinorReleases",
     ":rebaseStalePrs",
     ":renovatePrefix",
