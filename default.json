@@ -11,5 +11,11 @@
     ":semanticPrefixFixDepsChoreOthers",
     "github>sarvex/renovate-configs:automerge"
   ],
-  "ignorePaths": []
+  "ignorePaths": [],
+  "packageRules": [
+    {
+      "schedule": ["before 4am everyday"],
+      "automerge": true,
+      "automergeType": "branch"
+    }
 }
