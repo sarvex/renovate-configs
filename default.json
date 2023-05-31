@@ -3,20 +3,13 @@
   "extends": [
     "config:base",
     ":automergeAll",
-    ":automergeDigest",
-    ":automergeLinters",
+    ":automergeBranch"
     ":combinePatchMinorReleases",
     ":rebaseStalePrs",
     ":renovatePrefix",
     ":semanticPrefixFixDepsChoreOthers",
+    ":skipStatusChecks",
     "github>sarvex/renovate-configs:automerge"
   ],
   "ignorePaths": [],
-  "packageRules": [
-    {
-      "schedule": ["before 4am everyday"],
-      "automerge": true,
-      "automergeType": "branch"
-    }
-  ]
 }
