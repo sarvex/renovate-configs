@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "config:js-lib",
+    "github>sarvex/renovate-configs:automerge",
+    "github>sarvex/renovate-configs:eslint-prettier",
+    "github>sarvex/renovate-configs:group-patch",
+    "github>sarvex/renovate-configs:size-limit",
+    "github>sarvex/renovate-configs:react",
+    "github>sarvex/renovate-configs:styled-components"
+  ],
+  "semanticCommits": true,
+  "packageRules": [
+    {
+      "paths": ["example/**"],
+      "extends": [":semanticCommitTypeAll(chore)"]
+    }
+  ],
+  "supportPolicy": ["current"]
+}
